@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMTE_ID__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>A 9-character alpha-numeric code assigned to a committee by the Federal Election Commission</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Committee ID</inlineHelpText>
+    <label>CMTE ID</label>
+    <length>9</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
