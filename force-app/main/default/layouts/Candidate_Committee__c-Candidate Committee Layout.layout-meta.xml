@@ -26,6 +26,10 @@
                 <behavior>Readonly</behavior>
                 <field>Candidate_Name__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Import_Date__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
