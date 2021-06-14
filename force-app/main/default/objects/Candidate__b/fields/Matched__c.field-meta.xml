@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Matched__c</fullName>
+    <description>This field indicates that there has been a match.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Use for indicate if the record has been matched with an existing record.</inlineHelpText>
     <label>Matched</label>
     <length>10</length>
     <required>false</required>

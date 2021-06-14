@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CAND_ID__c</fullName>
-    <description>OpenFEC Candidate Id.</description>
+    <description>Candidate ID.</description>
     <externalId>false</externalId>
-    <inlineHelpText>OpenFEC Candidate Id.</inlineHelpText>
-    <label>Candidate ID</label>
+    <inlineHelpText>OpenFEC Candidate ID</inlineHelpText>
+    <label>CAND ID</label>
     <length>9</length>
-    <required>true</required>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>
