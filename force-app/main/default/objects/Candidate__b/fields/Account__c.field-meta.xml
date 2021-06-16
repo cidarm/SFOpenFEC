@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Account__c</fullName>
+    <description>Lookup field to the Account object.  This field can be populated by an external system.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Lookup to the Candidate record.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Candidate details</relationshipLabel>
