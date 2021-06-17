@@ -13,7 +13,7 @@ env:
 
 jobs:
   unit_tests:
-    name: "Run Apex tests"
+    name: "Feature tests"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
