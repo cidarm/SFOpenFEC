@@ -1,8 +1,8 @@
 minimum_cumulusci_version: '3.35.0'
 project:
-    name: SFDXOpenFEC
+    name: OpenFEC
     package:
-        name: SFDXOpenFEC
+        name: OpenFEC
         api_version: '50.0'
     git:
         default_branch: 'main'
@@ -11,14 +11,14 @@ project:
 tasks:
     robot:
         options:
-            suites: robot/SFDXOpenFEC/tests
+            suites: robot/OpenFEC/tests
             options:
-                outputdir: robot/SFDXOpenFEC/results
+                outputdir: robot/OpenFEC/results
 
     robot_testdoc:
         options:
-            path: robot/SFDXOpenFEC/tests
-            output: robot/SFDXOpenFEC/doc/SFDXOpenFEC_tests.html
+            path: robot/OpenFEC/tests
+            output: robot/OpenFEC/doc/OpenFEC_tests.html
 
     run_tests:
         options:
