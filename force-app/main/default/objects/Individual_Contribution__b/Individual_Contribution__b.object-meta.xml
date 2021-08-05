@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <deploymentStatus>InDevelopment</deploymentStatus>
+    <deploymentStatus>Deployed</deploymentStatus>
     <description>The contributions by individuals file contains information for contributions given by individuals. The method used to include contributions in this file has changed over time.</description>
     <label>Individual Contribution</label>
     <pluralLabel>Individual Contributions</pluralLabel>

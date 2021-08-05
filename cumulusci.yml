@@ -1,9 +1,10 @@
-minimum_cumulusci_version: '3.35.0'
+minimum_cumulusci_version: '3.40.1'
 project:
     name: OpenFEC
     package:
         name: OpenFEC
-        api_version: '50.0'
+        namespace: OpenFEC
+        api_version: '52.0'
     git:
         default_branch: 'main'
     source_format: sfdx
