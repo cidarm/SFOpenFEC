@@ -3,17 +3,19 @@
         {
             "path": "force-app",
             "default": true,
-            "package": "SFDXOpenFEC",
+            "package": "OpenFEC",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.0.NEXT",
+            "branch": ""
         }
     ],
-    "name": "SFDXOpenFEC",
-    "namespace": "",
+    "name": "OpenFEC",
+    "namespace": "OpenFEC",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "51.0",
     "packageAliases": {
-        "SFDXOpenFEC": "0Ho5e000000wkDOCAY",
-        "SFDXOpenFEC@0.1.0-1": "04t5e000000Mb9JAAS"
+        "OpenFEC": "0Ho5e000000GnFFCA0",
+        "OpenFEC@0.1.0-1": "04t5e000000zEOBAA2",
+        "OpenFEC@0.1.0-2-feature/build1": "04t5e000000zFsEAAU"
     }
 }
